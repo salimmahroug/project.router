@@ -1,0 +1,53 @@
+*{background-image: url("https://www.radiofrance.fr/s3/cruiser-production/2020/07/a2003e36-cd42-4111-917b-22148a6f2729/1200x680_gettyimages-1134671394.jpg");
+  background-attachment: fixed;}
+.App {
+  text-align: center;
+} 
+.moo{display: flex;}
+.block{
+  display: flex;
+  display: block;
+ 
+}
+.boutton{
+  margin: 0 10px 0 0 ;
+ border-radius: 20px;
+ border: solid 4px white;
+  width: 220px;
+  height: 360px;
+  font-size: 200px;
+  color: white;
+
+}
+
+.boutton:hover{
+  border: solid 6px rgb(255, 255, 255);
+  border-radius: 40px;
+  transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+  box-shadow: 0px 2px 3px rgba(255, 255, 255, 0.3);
+  transform: scale(.97);
+}
+
+.moo{
+  display: flex;
+  display: block;
+}
+.filter{
+  padding: 0 0  18px 0;
+
+
+}
+
+.App h1{
+  color:rgb(212, 212, 228) ;
+  text-align: center;
+  font-size:70px ;
+  font-style: italic;
+  position: relative;
+  padding-bottom: 1px;
+  margin-bottom: 20px;
+  padding: 1px 0 0 0 ;
+  margin:  1px 0 0 0;
+}
+
+
